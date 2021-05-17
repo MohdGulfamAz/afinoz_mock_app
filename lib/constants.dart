@@ -15,8 +15,8 @@ class MenuButtonConstans{
 }
 
 class MyColors{
-  static const Color themeColor = Color(0xff451b9f);
-  static const Color scaffoldColor = Color(0xf0bdb8b8);
+  static const Color themeColor = Color(0xff661ccc);
+  static const Color scaffoldColor = Color(0xFFEEEEEE);
 }
 
 class MyText{

@@ -1,4 +1,5 @@
 import 'package:afinoz_app/aap_bar.dart';
+import 'package:afinoz_app/constants.dart';
 import 'package:afinoz_app/pages/blog.dart';
 import 'package:afinoz_app/pages/forum.dart';
 import 'package:afinoz_app/pages/landing_page.dart';
@@ -36,6 +37,7 @@ class _MyBottomNavBar extends State<MyBottomNavBar> {
       appBar: MyAppBar(themeTitle),
       body: _children[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: MyColors.themeColor,
         onTap: onTapped,
         type: BottomNavigationBarType.fixed,
         backgroundColor: Colors.white,
